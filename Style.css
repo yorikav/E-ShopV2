@@ -61,6 +61,42 @@
     height: 2317px;
 }
 
+.menu {
+    width: 270px;
+    height: 475px;
+    float: left;
+    border: 1px solid #000;
+    margin-left: 165px;
+    margin-top: -20px;
+}
+
+.newProducts {
+    width: 870px;
+    height: 724px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: -20px;
+}
+
+.topProducts {
+    width: 870px;
+    height: 400px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: 70px;
+}
+
+.saleProducts {
+    width: 870px;
+    height: 400px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: 50px;
+}
+
 .footer {
     background-color: #373737;
     height: 348px;
