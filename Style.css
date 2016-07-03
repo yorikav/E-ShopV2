@@ -67,7 +67,35 @@
     float: left;
     border: 1px solid #000;
     margin-left: 165px;
-    margin-top: -20px;
+    margin-top: 20px;
+    background-color: #26d2fc;
+}
+
+.menu {
+    background-color: #26d2fc;
+    height: 475px;
+}
+
+.menu h3 {
+    background-color: #333333;
+    height: 66px;
+    color: #ffffff;
+    font: 700 18px / 62px Roboto;
+    padding-left: 42px;
+}
+
+.menu a {
+    display: block;
+    height: 43px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: #000;
+    font: 700 18px / 50px Roboto;
+}
+
+.menu a:hover {
+    color: #fff;
+    background-color: #333333;
 }
 
 .newProducts {
@@ -76,7 +104,7 @@
     float: right;
     border: 1px solid #000;
     margin-right: 165px;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .topProducts {
@@ -95,6 +123,33 @@
     border: 1px solid #000;
     margin-right: 165px;
     margin-top: 50px;
+}
+
+.Pots {
+    width: 870px;
+    height: 500px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: 85px;
+}
+
+.Grills {
+    width: 870px;
+    height: 500px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: 70px;
+}
+
+.SmokeHouses {
+    width: 870px;
+    height: 500px;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 165px;
+    margin-top: 70px;
 }
 
 .footer {
