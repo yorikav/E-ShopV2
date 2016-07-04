@@ -20,8 +20,18 @@
     height: 83px;
     margin-left: 234px;
     margin-top: 24px;
-    background: url(images/logo.jpg);
+    background: url(Catalog/images/logo.jpg);
     float: left;
+}
+
+.social {
+    float: right;
+    margin-right: 341px;
+    margin-top: 50px;
+}
+
+.social a {
+    margin-right: 15px;    
 }
 
 .welcome {
@@ -65,15 +75,10 @@
     width: 270px;
     height: 475px;
     float: left;
-    border: 1px solid #000;
+    /*border: 1px solid #c0c0c0;*/
     margin-left: 165px;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #26d2fc;
-}
-
-.menu {
-    background-color: #26d2fc;
-    height: 475px;
 }
 
 .menu h3 {
@@ -102,7 +107,7 @@
     width: 870px;
     height: 724px;
     float: right;
-    border: 1px solid #000;
+    border: 1px solid #c0c0c0;
     margin-right: 165px;
     margin-top: 20px;
 }
@@ -111,7 +116,7 @@
     width: 870px;
     height: 400px;
     float: right;
-    border: 1px solid #000;
+    border: 1px solid #c0c0c0;
     margin-right: 165px;
     margin-top: 70px;
 }
@@ -120,7 +125,7 @@
     width: 870px;
     height: 400px;
     float: right;
-    border: 1px solid #000;
+    border: 1px solid #c0c0c0;
     margin-right: 165px;
     margin-top: 50px;
 }
@@ -178,6 +183,81 @@
     margin-top: 40px;
     margin-left: 15px;
     background-color: #fff;
+}
+
+.image {
+    width: 370px;
+    height: 370px;
+    background-color: #eaeaea;
+    float: left;
+    margin-left: 38px;
+    margin-top: 101px;
+}
+
+.image > img {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.description {
+    float: right;
+    margin-right: 400px;
+    margin-top: 100px;
+    color: #353535;
+    font: 700 24px Roboto;
+}
+
+.price {
+    float: right;
+    margin-right: 545px;
+    margin-top: 45px;
+    color: #353535;
+    font: 700 24px Roboto;
+}
+
+.quickoverview {
+    width: 600px;
+    height: 100px;
+    float: right;
+    font: 400 20px / 25px Roboto;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.addtocart input[type="button"] {
+    width: 130px;
+    height: 48px;
+    background-color: #fb4d01;
+    color: #ffffff;
+    font: 400 21px / 20px Roboto;
+    float: left;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.productdescriptionheader {
+    width: 250px;
+    height: 50px;
+    background-color: #26d2fc;
+    color: #333333;
+    font: 400 21.91px Roboto;
+    float: right;
+    margin-top: 200px;
+    margin-right: 715px;
+}
+
+.productdescriptioncontent {
+    width: 871px;
+    height: 269px;
+    float: left;
+    color: #808080;
+    font: 400 17px / 20px Verdana;
+    padding-top: 20px;
+    margin-left: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #c0c0c0;
 }
 
 .footer {
